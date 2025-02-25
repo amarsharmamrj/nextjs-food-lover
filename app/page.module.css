@@ -166,3 +166,12 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+
+
+/* custom style */
+
+.nav a{
+  margin: 1rem;
+}

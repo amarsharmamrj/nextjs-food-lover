@@ -5,6 +5,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
+      <nav className={styles.nav}>
+        <Link href="/about">About Us</Link>
+        <Link href="/blog">Blog</Link>
+      </nav>
+
       <main className={styles.main}>
         <Image
           className={styles.logo}
@@ -21,9 +26,6 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <p>
-          <Link href="/about">About Us</Link>
-        </p>
 
         <div className={styles.ctas}>
           <a
